@@ -41,8 +41,8 @@ return [
     'connections' => [
 
         'main' => [
-            'clientId'     => 'dc2dd5e69419b0551eb7',
-            'clientSecret' => '0f9c99ed278821d6d92d48e14794a9d146ccc198',
+            'clientId'     => '',
+            'clientSecret' => '',
             'method'       => 'application',
         ],
 
