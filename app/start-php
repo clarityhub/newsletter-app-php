@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Using port 9000 since port 8080 is taken by the docker instance
+# NOTE don't use artisan serve in production
+# Instead use artisan optimize and serve from /var/www
+composer install
+php artisan migrate
+php artisan serve --port 9000 --host laravel-app
